@@ -1,0 +1,23 @@
+.employeeCard {
+  box-sizing: border-box;
+  background-color: #f9f7f753;
+  color: #f9f7f7;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  text-align: center;
+  a {
+    color: #f9f7f7;
+    text-decoration: none;
+    h3 {
+      margin: 5px;
+    }
+    p {
+      margin: 5px;
+
+      @media (max-width: 491px) {
+        font-size: 20px;
+      }
+    }
+  }
+}

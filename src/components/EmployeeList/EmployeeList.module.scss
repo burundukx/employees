@@ -1,0 +1,25 @@
+.employeeList {
+  box-sizing: border-box;
+  margin: 0 10px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 20px;
+  justify-content: center;
+  .noEmployees {
+    margin-top: 10px;
+    padding: 20px;
+    text-align: center;
+    p {
+      margin: 10px;
+      color: #f9f7f7;
+    }
+    a {
+      color: #f9f7f7;
+    }
+  }
+  @media (max-width: 700px) {
+    width: 100%;
+  }
+}
